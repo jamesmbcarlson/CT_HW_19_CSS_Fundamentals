@@ -1,0 +1,117 @@
+/* James Carlson
+Coding Temple - SE FT-144
+Frontend Module 8 Lesson 1 Assignment: CSS Fundamentals */
+
+body{
+    background-color:rgb(255, 238, 216);
+    margin: 0px
+}
+
+header {
+    background-color:rgb(224, 192, 149);
+    padding: 3cqw;
+}
+
+main {
+    margin: 48px 10% 0px;
+}
+
+img {
+    width: 100%;
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 52px;
+    text-align: center;;
+}
+
+h1, h3, button {
+    font-family: "Secular One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #331a06;
+}
+
+blockquote, p, li, label, table, textarea {
+    font-family: "Lato", sans-serif;
+    color:#1b0d02
+}
+
+blockquote {
+    font-weight: 600;
+}
+
+.recipe {
+    border: 4px double coral;
+    border-radius: 10px;
+    padding: 2% 5%;
+}
+
+ul {
+    font-style: italic;
+}
+
+ol>li:nth-child(even) {
+    color:darkblue;
+    margin: 10px 0px;
+}
+
+a:hover {
+    color: coral;
+    text-decoration: none;
+}
+
+button {
+    border: 4px ridge coral;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 16px;
+    background-color:rgb(71, 35, 10);
+    color: whitesmoke;
+    margin: 16px;
+}
+
+button:hover {
+    background-color:saddlebrown;
+}
+
+#rootin-tootin-gif {
+    width: 300px;
+    margin: 0px 30% 20px;
+}
+
+footer {
+    background-image: linear-gradient(rgb(61, 28, 18), rgb(31, 5, 5));
+    text-align: center;
+    padding: 60px;
+}
+
+footer > p {
+    color: whitesmoke;
+}
+
+/* FORM FIELDS */
+
+form {
+    /* border: 2px solid pink; */
+    margin: 0px 20%;
+    min-height: 500px;
+}
+
+/* table {
+    border: 2px dashed purple; 
+} */
+
+td:has(label) {
+    text-align: right;
+    margin-right: 6px;
+    min-width: 120px;
+    vertical-align: top;
+}
+
+textarea {
+    min-width: 200px;
+    max-width: 600px;
+    min-height: 120px;
+}

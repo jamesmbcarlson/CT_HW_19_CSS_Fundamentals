@@ -1,0 +1,59 @@
+<!--
+    James Carlson
+    Coding Temple - SE FT-144
+    Frontend Module 8 Lesson 1 Assignment: CSS Fundamentals
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./static/main.css">
+    <title>Cookie Time! | Submit Your Own Recipe!</title>
+</head>
+<body>
+    <header>
+        <h1>Submit Yo' Cookies</h1>
+    </header>
+
+    <main>
+        <!-- Form for Cookie Recipes! -->
+        <form action="recipe_submitted.html" post="GET">
+            <table>
+
+                <!-- Form: Name -->
+                <tr>   
+                <td><label for="name">Name of Recipe:</label></td>
+                <td><input type="text" name="name" aria-label="name" placeholder="My Delicious Cookies" required></td>
+                </tr>
+
+                <!-- Form: Ingredients -->
+                <tr>
+                <td><label for="ingredients">Ingredients:</label></td>
+                <td><textarea name="ingredients" aria-label="ingredients" required></textarea></td>
+                </tr>
+
+                <!-- Form: Recipe Steps -->
+                <tr>
+                <td><label for="steps">Recipe Steps:</label></td>
+                <td><textarea  name="steps" aria-label="steps" required></textarea></td>
+                </tr>
+
+            </table>
+
+            <!-- Form: Submission Button-->
+            <button type="submit">Submit Your Recipe</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>🍪 Jimjam &hearts; Cookies 4eva 🍪</p>
+    </footer>
+
+    
+</body>
+</html>
